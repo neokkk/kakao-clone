@@ -1,40 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
   <title>Chat</title>
+
 </head>
 <body>
+  <!-- header 시작 -->
   <header>
+
     <div class="header_top">
+
       <div class="header_column">
+
         <i class="fa fa-plane"></i>
         <i class="fa fa-wifi"></i>
+
       </div>
       <div class="header_column">
+
         <span class="header_time">18:38</span>
+
       </div>
       <div class="header_column">
+
         <i class="fa fa-moon-o"></i>
         <i class="fa fa-bluetooth-b"></i>
         <span class="header_battery">66% <i class="fa fa-battery-full"></i></span>
+
       </div>
+
     </div>
+
     <div class="header_bottom">
+
       <div class="header_column">
+
         <i class="fa fa-chevron-left fa-lg"></i>
+
       </div>
       <div class="header_column">
+
         <span class="header_text">Lynn</span>
+
       </div>
       <div class="header_column">
+
         <i class="fa fa-search"></i>
         <i class="fa fa-bars"></i>
+
       </div>
+
     </div>
+
   </header>
+  <!-- main 시작 -->
+  <main class="chat">
+
+    <div class="date-divider">
+
+      <span class="date-divider_text">Sunday, October 23, 2016</span>
+
+    </div>
+    <div class="chat_message chat_message-from-me">
+
+      <span class="chat_message-time">20:44</span>
+      <span class="chat_message-body">Hello! This is a test message.</span>
+
+    </div>
+
+    <div class="chat_message chat_message-to-me">
+
+      <img src="images/avatar.jpg" alt="" class="chat_message-avatar">
+      <div class="chat_message-center">
+
+        <h3 class="chat_message-username">Lynn</h3>
+        <span class="chat_message-body">And this is an answer.</span>
+
+      </div>
+      <span class="chat_message-time">20:52</span>
+
+    </div>
+
+  <div class="type_message">
+
+    <i class="fa fa-plus fa-2x"></i>
+    <div class="type-message_input">
+
+      <input type="text">
+      <i class="fa fa-smile-o"></i>
+      <span class="record-message">
+
+        <i class="fa fa-microphone"></i>
+
+      </span>
+
+    </div>
+
+  </div>
+</main><!-- main 종료 -->
+
 </body>
 </html>
