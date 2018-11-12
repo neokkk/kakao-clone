@@ -7,13 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
 
   <title>Friends</title>
 
 </head>
 <body>
   <!-- header 시작 -->
-  <header>
+  <header class="top-header">
     <!-- header_top 시작 -->
     <div class="header_top">
 
@@ -81,12 +82,8 @@
 
         <div class="friends_section-row">
 
-          <a href="profile.html">
-
-            <img src="images/avatar.jpg">
-            <span class="friends_section-name">Nicolas</span>
-            
-          </a>
+          <img src="images/avatar.jpg">
+          <a href="profile.html" class="friends_section-name">Nicolas</a>
 
         </div>
 
@@ -115,11 +112,11 @@
 
     <div class="friends_section-rows">
 
-      <div class="friends_section-row">
+      <div class="friends_section-row with-tagline">
 
         <div class="friends_section-column">
 
-          <img src="" alt="">
+          <img src="images/avatar.jpg">
           <span class="friends_section-name">Nicolas</span>
 
         </div>
@@ -137,24 +134,28 @@
   <!-- nav 시작 -->
   <nav class="tab-bar">
 
-    <a href="index.html" class="tab-bar_tab">
+    <a href="index.html" class="tab-bar_tab tab-bar_selected">
 
-      <i class="fa fa-user"></i><span class="tab-bar_title tab-bar_selected">Friends</span>
+      <i class="fa fa-user"></i>
+      <span class="tab-bar_title">Friends</span>
 
     </a>
     <a href="chats.html" class="tab-bar_tab">
 
-      <i class="fa fa-comment"></i><span class="tab-bar_title">Chats</span>
+      <i class="fa fa-comment"></i>
+      <span class="tab-bar_title">Chats</span>
 
     </a>
     <a href="find.html" class="tab-bar_tab">
 
-      <i class="fa fa-search"></i><span class="tab-bar_title">Find</span>
+      <i class="fa fa-search"></i>
+      <span class="tab-bar_title">Find</span>
 
     </a>
     <a href="more.html" class="tab-bar_tab">
 
-      <i class="fa fa-ellipsis-h"></i><span class="tab-bar_title">More</span>
+      <i class="fa fa-ellipsis-h"></i>
+      <span class="tab-bar_title">More</span>
 
     </a>
 

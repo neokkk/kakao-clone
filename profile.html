@@ -5,14 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
 
   <title>Profile</title>
 
 </head>
 <body>
   <!-- header 시작 -->
-  <header>
+  <header class="top-header top-header-transparent">
 
     <div class="header_top">
 
@@ -63,41 +65,41 @@
 
     <header class="profile_header">
 
-      <img src="images/avatar.jpg">
-      <h3 class="profile_header-title">Nicolas</h3>
+      <div class="profile_header-container">
 
-    </header>
-    <input type="text" placeholder="itnicolasme@gmail.com">
-
-    <div class="profile_actions">
-
-      <div class="profile_action">
-
-        <span class="profile_action-circle">
-
-          <i class="fa fa-comment fa-2x">My Chatroom</i>
-
-        </span>
-        <span class="profile_action-title">
-
-          <i class="fa"></i>
-
-        </span>
+        <img src="images/avatar.jpg">
+        <h3 class="profile_header-title">Nicolas</h3>
 
       </div>
 
-      <div class="profile_action">
+    </header>
+    <div class="profile_container">
 
-        <span class="profile_action-circle">
+      <input type="text" placeholder="itnicolasme@gmail.com">
 
-          <i class="fa fa-pencil fa-2x">Edit Profile</i>
+      <div class="profile_actions">
 
-        </span>
-        <span class="profile_action-title">
+        <div class="profile_action">
 
-          <i class="fa"></i>
+          <span class="profile_action-circle">
 
-        </span>
+            <i class="fa fa-comment fa-2x"></i>
+
+          </span>
+          <span class="profile_action-title">My Chatroom</span>
+
+        </div>
+
+        <div class="profile_action">
+
+          <span class="profile_action-circle">
+
+            <i class="fa fa-pencil fa-2x"></i>
+
+          </span>
+          <span class="profile_action-title">Edit Profile</span>
+
+        </div>
 
       </div>
 
